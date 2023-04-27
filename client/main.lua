@@ -64,7 +64,7 @@ RegisterNetEvent('mz-storerobbery:client:mzRegisterHit', function()
             z = currentPos.z
         },
         dispatchMessage = "Forced Entry: Cash Register",        -- message
-        job = {"police"}                                        -- jobs that will get the alerts
+        job = {'police', 'bcso', 'sasp', 'sapr'}                                        -- jobs that will get the alerts
     })
 end)
 
@@ -89,7 +89,7 @@ RegisterNetEvent('mz-storerobbery:client:mzSafeHit', function()
             z = currentPos.z
         },
         dispatchMessage = "24/7 Store Robbery",             -- message
-        job = {"police"}                                    -- jobs that will get the alerts
+        job = {'police', 'bcso', 'sasp', 'sapr'}                                    -- jobs that will get the alerts
     })
 end)
 
@@ -114,7 +114,7 @@ RegisterNetEvent('mz-storerobbery:client:mzLiquorHit', function()
             z = currentPos.z
         },
         dispatchMessage = "Liquor Store Robbery",             -- message
-        job = {"police"}                                    -- jobs that will get the alerts
+        job = {'police', 'bcso', 'sasp', 'sapr'}                                    -- jobs that will get the alerts
     })
 end)
 
