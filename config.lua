@@ -28,7 +28,7 @@ Config.tickInterval = 1000                      -- No need to change this.
 --------------------
 --POLICE VARIABLES--
 --------------------
-Config.UsePoliceName = true                    -- If this is set to "false", server will check for jobname: "police", otherwise it will check for job type for newer qb-core builds
+Config.UsePoliceName = false                    -- If this is set to "false", server will check for jobname: "police", otherwise it will check for job type for newer qb-core builds
 Config.PoliceJobType = "leo"                    -- Name of job type used by your server - used if "Config.UsePoliceName = true"
 Config.PoliceJobName = "police"                 -- Name of police role in your server - used if "Config.UsePoliceName = false"
 
@@ -122,7 +122,7 @@ Config.liquorKeySafe = 15                      -- Percentage chance to find a "l
 -- Please note, all hacks except "mHacking" depend on ps-ui. "mHacking" depends on mhacking. Ensure those resources are up to date. 
 -- Please also note, the follow parameters can only be set once. There is no separate way to re-configure the hack for different robberies.
 
-Config.Hacktype = "mHacking"
+Config.Hacktype = "scrambler"
 
 Config.HacktypeLiquor = "scrambler"
 
